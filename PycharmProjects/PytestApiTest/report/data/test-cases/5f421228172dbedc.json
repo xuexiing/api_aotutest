@@ -1,0 +1,156 @@
+{
+  "uid" : "5f421228172dbedc",
+  "name" : "testcase2",
+  "fullName" : "pytest_case.test_fixtures1#test_case2",
+  "historyId" : "92f9d3b642298a60c88279ecf235fa2d",
+  "time" : {
+    "start" : 1647935631159,
+    "stop" : 1647935631159,
+    "duration" : 0
+  },
+  "description" : "I am first test_case2",
+  "descriptionHtml" : "<p>I am first test_case2</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+  "statusTrace" : "@pytest.mark.run(order=2)\n    @allure.title(\"testcase2\")\n    @allure.description(\"I am first test_case2\")\n    @allure.story('story_2')\n    def test_case2():\n        print('I am case2')\n        LoggerForApitest.writeInfoLog(\"I AM CASE2\")\n>       assert 2 == 3\nE       assert 2 == 3\nE         +2\nE         -3\n\npytest_case\\test_fixtures1.py:47: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_module_fixture_pytest_case.test_fixtures1",
+    "time" : {
+      "start" : 1647935631151,
+      "stop" : 1647935631151,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "xunit_setup_function_fixture_pytest_case.test_fixtures1",
+    "time" : {
+      "start" : 1647935631158,
+      "stop" : 1647935631159,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "I am first test_case2",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+    "statusTrace" : "@pytest.mark.run(order=2)\n    @allure.title(\"testcase2\")\n    @allure.description(\"I am first test_case2\")\n    @allure.story('story_2')\n    def test_case2():\n        print('I am case2')\n        LoggerForApitest.writeInfoLog(\"I AM CASE2\")\n>       assert 2 == 3\nE       assert 2 == 3\nE         +2\nE         -3\n\npytest_case\\test_fixtures1.py:47: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e900f6e21eb4a9aa",
+      "name" : "log",
+      "source" : "e900f6e21eb4a9aa.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "ed8fb1f741108ae2",
+      "name" : "stdout",
+      "source" : "ed8fb1f741108ae2.txt",
+      "type" : "text/plain",
+      "size" : 115
+    }, {
+      "uid" : "eb46e829130dfca2",
+      "name" : "stderr",
+      "source" : "eb46e829130dfca2.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_function_fixture_pytest_case.test_fixtures1::0",
+    "time" : {
+      "start" : 1647935631202,
+      "stop" : 1647935631202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "xunit_setup_module_fixture_pytest_case.test_fixtures1::0",
+    "time" : {
+      "start" : 1647935631211,
+      "stop" : 1647935631211,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story_2"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_fixtures1"
+  }, {
+    "name" : "host",
+    "value" : "no-delecs-g42-test-wx405299"
+  }, {
+    "name" : "thread",
+    "value" : "6880-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_fixtures1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "5f421228172dbedc.json",
+  "parameterValues" : [ ]
+}

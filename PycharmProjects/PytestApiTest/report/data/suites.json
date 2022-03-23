@@ -1,0 +1,144 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pytest_case.vpc",
+    "children" : [ {
+      "name" : "test_vpc_api_vpc",
+      "children" : [ {
+        "name" : "TestVpcApi",
+        "children" : [ {
+          "name" : "test_create_vpc_vpc[create_vpc0]",
+          "uid" : "3c8f76f98b7244bc",
+          "parentUid" : "f20354950f3493098d2433ca63881755",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647999576545,
+            "stop" : 1647999578799,
+            "duration" : 2254
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+        }, {
+          "name" : "test_create_vpc_vpc[create_vpc1]",
+          "uid" : "a2557b60f7315976",
+          "parentUid" : "f20354950f3493098d2433ca63881755",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647999578799,
+            "stop" : 1647999580425,
+            "duration" : 1626
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+        }, {
+          "name" : "test_create_vpc_vpc[create_vpc2]",
+          "uid" : "59f84bac43a72923",
+          "parentUid" : "f20354950f3493098d2433ca63881755",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647999580425,
+            "stop" : 1647999581875,
+            "duration" : 1450
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+        }, {
+          "name" : "test_delete_vpc_vpc[delete_vpc0]",
+          "uid" : "d760dfbdee060174",
+          "parentUid" : "f20354950f3493098d2433ca63881755",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647999581881,
+            "stop" : 1647999584670,
+            "duration" : 2789
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+        } ],
+        "uid" : "f20354950f3493098d2433ca63881755"
+      } ],
+      "uid" : "224150858edd9a6335eec4cf3005d947"
+    } ],
+    "uid" : "c00e6188b5b64aa3ad508b21a5e6e1ba"
+  }, {
+    "name" : "pytest_case",
+    "children" : [ {
+      "name" : "test_fixtures1",
+      "children" : [ {
+        "name" : "testcase3",
+        "uid" : "5b7c6162f54d19fa",
+        "parentUid" : "10b3df542af02e2c2b7783df30dcc48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648000790894,
+          "stop" : 1648000790894,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "d9916ee121ef3df",
+        "parentUid" : "10b3df542af02e2c2b7783df30dcc48e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648000790902,
+          "stop" : 1648000790902,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "5f57929b17e655f8",
+        "parentUid" : "10b3df542af02e2c2b7783df30dcc48e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648000790941,
+          "stop" : 1648000790941,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10b3df542af02e2c2b7783df30dcc48e"
+    } ],
+    "uid" : "340aaf9039daeb61cf95abaeaebb7284"
+  } ]
+}

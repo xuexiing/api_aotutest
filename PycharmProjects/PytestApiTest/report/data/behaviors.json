@@ -1,0 +1,140 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_create_vpc_vpc[create_vpc0]",
+    "uid" : "3c8f76f98b7244bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647999576545,
+      "stop" : 1647999578799,
+      "duration" : 2254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+  }, {
+    "name" : "test_create_vpc_vpc[create_vpc1]",
+    "uid" : "a2557b60f7315976",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647999578799,
+      "stop" : 1647999580425,
+      "duration" : 1626
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+  }, {
+    "name" : "test_create_vpc_vpc[create_vpc2]",
+    "uid" : "59f84bac43a72923",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647999580425,
+      "stop" : 1647999581875,
+      "duration" : 1450
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+  }, {
+    "name" : "test_delete_vpc_vpc[delete_vpc0]",
+    "uid" : "d760dfbdee060174",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647999581881,
+      "stop" : 1647999584670,
+      "duration" : 2789
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+  }, {
+    "name" : "story_3",
+    "children" : [ {
+      "name" : "testcase3",
+      "uid" : "5b7c6162f54d19fa",
+      "parentUid" : "4b3057e5f20a66c35b2381fa78ae6e83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648000790894,
+        "stop" : 1648000790894,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 20,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4b3057e5f20a66c35b2381fa78ae6e83"
+  }, {
+    "name" : "story_2",
+    "children" : [ {
+      "name" : "testcase2",
+      "uid" : "d9916ee121ef3df",
+      "parentUid" : "6a9ccce4b70bf8cb3fe1d22166f165fa",
+      "status" : "failed",
+      "time" : {
+        "start" : 1648000790902,
+        "stop" : 1648000790902,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 20,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6a9ccce4b70bf8cb3fe1d22166f165fa"
+  }, {
+    "name" : "I am feature",
+    "children" : [ {
+      "name" : "story_1",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "5f57929b17e655f8",
+        "parentUid" : "46ada5801e948981b4b4a37f94b95693",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648000790941,
+          "stop" : 1648000790941,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46ada5801e948981b4b4a37f94b95693"
+    } ],
+    "uid" : "e45fc621f9bc57a00d58335f48fc135d"
+  } ]
+}

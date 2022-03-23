@@ -1,0 +1,149 @@
+{
+  "uid" : "cdae20a446903634",
+  "name" : "testcase1",
+  "fullName" : "pytest_case.test_fixtures1#test_case1",
+  "historyId" : "c2587292494ec27982b03b54b5718784",
+  "time" : {
+    "start" : 1647935056195,
+    "stop" : 1647935056195,
+    "duration" : 0
+  },
+  "description" : "I am first test_case1",
+  "descriptionHtml" : "<p>I am first test_case1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_module_fixture_pytest_case.test_fixtures1",
+    "time" : {
+      "start" : 1647935056172,
+      "stop" : 1647935056172,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "xunit_setup_function_fixture_pytest_case.test_fixtures1",
+    "time" : {
+      "start" : 1647935056195,
+      "stop" : 1647935056195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "I am first test_case1",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "db378e0dcc385873",
+      "name" : "log",
+      "source" : "db378e0dcc385873.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "bb5981d605d10126",
+      "name" : "stdout",
+      "source" : "bb5981d605d10126.txt",
+      "type" : "text/plain",
+      "size" : 141
+    }, {
+      "uid" : "fd87959d25967d9f",
+      "name" : "stderr",
+      "source" : "fd87959d25967d9f.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_function_fixture_pytest_case.test_fixtures1::0",
+    "time" : {
+      "start" : 1647935056195,
+      "stop" : 1647935056195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "xunit_setup_module_fixture_pytest_case.test_fixtures1::0",
+    "time" : {
+      "start" : 1647935056195,
+      "stop" : 1647935056195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_fixtures1"
+  }, {
+    "name" : "host",
+    "value" : "no-delecs-g42-test-wx405299"
+  }, {
+    "name" : "thread",
+    "value" : "24388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_fixtures1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "cdae20a446903634.json",
+  "parameterValues" : [ ]
+}

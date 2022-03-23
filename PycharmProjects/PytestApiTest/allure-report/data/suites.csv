@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 23 14:30:24 CST 2022","Wed Mar 23 14:30:24 CST 2022","0","pytest_case","test_fixtures1","","","","testcase1","I am first test_case1"
+"passed","Wed Mar 23 14:30:24 CST 2022","Wed Mar 23 14:30:24 CST 2022","0","pytest_case","test_fixtures1","","","","testcase3","I am first test_case3"
+"passed","Wed Mar 23 14:30:24 CST 2022","Wed Mar 23 14:30:24 CST 2022","1","pytest_case","test_fixtures1","","","","testcase2","I am first test_case2"

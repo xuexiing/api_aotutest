@@ -1,0 +1,1704 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "no-delecs-g42-test-wx405299",
+    "children" : [ {
+      "name" : "14960-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "db525bf40cb9d03a",
+        "parentUid" : "547e15e4482bfef7d81fdebcdcd08952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935473800,
+          "stop" : 1647935473800,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "3c08607da20e9fd2",
+        "parentUid" : "547e15e4482bfef7d81fdebcdcd08952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935477598,
+          "stop" : 1647935478960,
+          "duration" : 1362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "b703237e342ff569",
+        "parentUid" : "547e15e4482bfef7d81fdebcdcd08952",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647935473769,
+          "stop" : 1647935473769,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "e6792b34ab359fd3",
+        "parentUid" : "547e15e4482bfef7d81fdebcdcd08952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935475659,
+          "stop" : 1647935477590,
+          "duration" : 1931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "a90a623c533c37f6",
+        "parentUid" : "547e15e4482bfef7d81fdebcdcd08952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935480148,
+          "stop" : 1647935482597,
+          "duration" : 2449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "1d3fea456a85fc66",
+        "parentUid" : "547e15e4482bfef7d81fdebcdcd08952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935478968,
+          "stop" : 1647935480148,
+          "duration" : 1180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "45e19376fbebd8f2",
+        "parentUid" : "547e15e4482bfef7d81fdebcdcd08952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935473761,
+          "stop" : 1647935473761,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "547e15e4482bfef7d81fdebcdcd08952"
+    }, {
+      "name" : "15728-MainThread",
+      "children" : [ {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "95e273b12c031d5e",
+        "parentUid" : "f4b67462ca6728aa902fd281a24ea015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998629028,
+          "stop" : 1647998630482,
+          "duration" : 1454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "3134395f5e9c989c",
+        "parentUid" : "f4b67462ca6728aa902fd281a24ea015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998622639,
+          "stop" : 1647998622639,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "72c0071e692bad22",
+        "parentUid" : "f4b67462ca6728aa902fd281a24ea015",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647998622647,
+          "stop" : 1647998622647,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "e865e9503d7921f2",
+        "parentUid" : "f4b67462ca6728aa902fd281a24ea015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998630482,
+          "stop" : 1647998632839,
+          "duration" : 2357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "8e3a2bdd8b6aa0dc",
+        "parentUid" : "f4b67462ca6728aa902fd281a24ea015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998622694,
+          "stop" : 1647998622694,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "c0af6146e4052024",
+        "parentUid" : "f4b67462ca6728aa902fd281a24ea015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998624802,
+          "stop" : 1647998627357,
+          "duration" : 2555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "4ffb6c97f861e0ef",
+        "parentUid" : "f4b67462ca6728aa902fd281a24ea015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998627372,
+          "stop" : 1647998629020,
+          "duration" : 1648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      } ],
+      "uid" : "f4b67462ca6728aa902fd281a24ea015"
+    }, {
+      "name" : "13572-MainThread",
+      "children" : [ {
+        "name" : "test_case3",
+        "uid" : "5c235916f6240849",
+        "parentUid" : "f614fb34b5bdc6ac1126e010f04d1f62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647932935585,
+          "stop" : 1647932935585,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "e3bf4bf16b54a1c6",
+        "parentUid" : "f614fb34b5bdc6ac1126e010f04d1f62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647932935598,
+          "stop" : 1647932935598,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case2",
+        "uid" : "5f6d33ab630caca0",
+        "parentUid" : "f614fb34b5bdc6ac1126e010f04d1f62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647932935591,
+          "stop" : 1647932935592,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f614fb34b5bdc6ac1126e010f04d1f62"
+    }, {
+      "name" : "19368-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "3255f0d10ac026fe",
+        "parentUid" : "61ec45309b3d2686c6e1716d19223b93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933812050,
+          "stop" : 1647933812050,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case3",
+        "uid" : "4a438188dcf1c521",
+        "parentUid" : "61ec45309b3d2686c6e1716d19223b93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933812038,
+          "stop" : 1647933812039,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case2",
+        "uid" : "536835066ad59f92",
+        "parentUid" : "61ec45309b3d2686c6e1716d19223b93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933812044,
+          "stop" : 1647933812044,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61ec45309b3d2686c6e1716d19223b93"
+    }, {
+      "name" : "25692-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "971db7c461da1fca",
+        "parentUid" : "1a7e037a69120ad7624dffd4a80a77be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999444536,
+          "stop" : 1647999444536,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "ae8462d0adfabf75",
+        "parentUid" : "1a7e037a69120ad7624dffd4a80a77be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999448941,
+          "stop" : 1647999471668,
+          "duration" : 22727
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "ef7155472c27507b",
+        "parentUid" : "1a7e037a69120ad7624dffd4a80a77be",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647999444489,
+          "stop" : 1647999444489,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "a8afd6eacbfe0828",
+        "parentUid" : "1a7e037a69120ad7624dffd4a80a77be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999446321,
+          "stop" : 1647999448933,
+          "duration" : 2612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "440ba7ef68dee9b2",
+        "parentUid" : "1a7e037a69120ad7624dffd4a80a77be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999473081,
+          "stop" : 1647999475451,
+          "duration" : 2370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "691877ca273b2101",
+        "parentUid" : "1a7e037a69120ad7624dffd4a80a77be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999444481,
+          "stop" : 1647999444481,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "3763da3f414fb85d",
+        "parentUid" : "1a7e037a69120ad7624dffd4a80a77be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999471668,
+          "stop" : 1647999473081,
+          "duration" : 1413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      } ],
+      "uid" : "1a7e037a69120ad7624dffd4a80a77be"
+    }, {
+      "name" : "17528-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "f5f00ac1986bb9f",
+        "parentUid" : "ba820211dfc3e1566506f08f59ee3d96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998706704,
+          "stop" : 1647998706711,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "d4ce9b16c3a0654e",
+        "parentUid" : "ba820211dfc3e1566506f08f59ee3d96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998733509,
+          "stop" : 1647998734954,
+          "duration" : 1445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "4146d7011a920ed6",
+        "parentUid" : "ba820211dfc3e1566506f08f59ee3d96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998706657,
+          "stop" : 1647998706657,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "98a6c0b61a1a5daa",
+        "parentUid" : "ba820211dfc3e1566506f08f59ee3d96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647998706672,
+          "stop" : 1647998706672,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "492951fd7f2ca38a",
+        "parentUid" : "ba820211dfc3e1566506f08f59ee3d96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998708528,
+          "stop" : 1647998710776,
+          "duration" : 2248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "9646d269cf8e8870",
+        "parentUid" : "ba820211dfc3e1566506f08f59ee3d96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998710784,
+          "stop" : 1647998733501,
+          "duration" : 22717
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "3acf3f271bf8fb55",
+        "parentUid" : "ba820211dfc3e1566506f08f59ee3d96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647998734954,
+          "stop" : 1647998737335,
+          "duration" : 2381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      } ],
+      "uid" : "ba820211dfc3e1566506f08f59ee3d96"
+    }, {
+      "name" : "15464-MainThread",
+      "children" : [ {
+        "name" : "testcase2",
+        "uid" : "95ffb8eb41d22f4f",
+        "parentUid" : "a07a7a820e0a103574264ba54bdb625d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647999876051,
+          "stop" : 1647999876052,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "11b65490e12344e8",
+        "parentUid" : "a07a7a820e0a103574264ba54bdb625d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999876084,
+          "stop" : 1647999876084,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "ecb0078c32b7c13d",
+        "parentUid" : "a07a7a820e0a103574264ba54bdb625d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999876046,
+          "stop" : 1647999876046,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a07a7a820e0a103574264ba54bdb625d"
+    }, {
+      "name" : "13380-MainThread",
+      "children" : [ {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "a357d41e32b6aa18",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999390803,
+          "stop" : 1647999392432,
+          "duration" : 1629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "5125bb02d0b38632",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999392432,
+          "stop" : 1647999393888,
+          "duration" : 1456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "1af0be06f78f4ecb",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999388565,
+          "stop" : 1647999390803,
+          "duration" : 2238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "6b9e78800d80881a",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999386685,
+          "stop" : 1647999386693,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "d809bdd75cffc01",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647999386693,
+          "stop" : 1647999386693,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "8b702ac7ac51096b",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999393896,
+          "stop" : 1647999396492,
+          "duration" : 2596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "ad7531de949e196c",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647931940390,
+          "stop" : 1647931940390,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case3",
+        "uid" : "9a1dfc287707509c",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647931940382,
+          "stop" : 1647931940382,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case2",
+        "uid" : "e2cc26165af239e7",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647931940382,
+          "stop" : 1647931940382,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "f9f44ba379d9005c",
+        "parentUid" : "a6f7e9c35ba8019293e19b8aeff7c82e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999386740,
+          "stop" : 1647999386740,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6f7e9c35ba8019293e19b8aeff7c82e"
+    }, {
+      "name" : "26572-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "bffbb29cad0ffa32",
+        "parentUid" : "376d64a2905d8fb87d2c3cd11fc8eb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999574719,
+          "stop" : 1647999574727,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "d760dfbdee060174",
+        "parentUid" : "376d64a2905d8fb87d2c3cd11fc8eb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999581881,
+          "stop" : 1647999584670,
+          "duration" : 2789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "d19c9d684be1e79a",
+        "parentUid" : "376d64a2905d8fb87d2c3cd11fc8eb8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647999574680,
+          "stop" : 1647999574680,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "a2557b60f7315976",
+        "parentUid" : "376d64a2905d8fb87d2c3cd11fc8eb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999578799,
+          "stop" : 1647999580425,
+          "duration" : 1626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "88f3bb793ef1b039",
+        "parentUid" : "376d64a2905d8fb87d2c3cd11fc8eb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999574672,
+          "stop" : 1647999574672,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "3c8f76f98b7244bc",
+        "parentUid" : "376d64a2905d8fb87d2c3cd11fc8eb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999576545,
+          "stop" : 1647999578799,
+          "duration" : 2254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "59f84bac43a72923",
+        "parentUid" : "376d64a2905d8fb87d2c3cd11fc8eb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999580425,
+          "stop" : 1647999581875,
+          "duration" : 1450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      } ],
+      "uid" : "376d64a2905d8fb87d2c3cd11fc8eb8f"
+    }, {
+      "name" : "6880-MainThread",
+      "children" : [ {
+        "name" : "testcase3",
+        "uid" : "263ee40cbb4555c6",
+        "parentUid" : "5f388328b5ef33396eee6a5520a2616e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935631153,
+          "stop" : 1647935631153,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "5f421228172dbedc",
+        "parentUid" : "5f388328b5ef33396eee6a5520a2616e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647935631159,
+          "stop" : 1647935631159,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "f82fc55aa4a22969",
+        "parentUid" : "5f388328b5ef33396eee6a5520a2616e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935632670,
+          "stop" : 1647935634666,
+          "duration" : 1996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "c13bb20b81cc7065",
+        "parentUid" : "5f388328b5ef33396eee6a5520a2616e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935637550,
+          "stop" : 1647935641534,
+          "duration" : 3984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "87894966f27b82d6",
+        "parentUid" : "5f388328b5ef33396eee6a5520a2616e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935636063,
+          "stop" : 1647935637545,
+          "duration" : 1482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "e60fdc9ced1a5038",
+        "parentUid" : "5f388328b5ef33396eee6a5520a2616e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935634671,
+          "stop" : 1647935636058,
+          "duration" : 1387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "8d9b2d4f8a7c3aaa",
+        "parentUid" : "5f388328b5ef33396eee6a5520a2616e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935631207,
+          "stop" : 1647935631207,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f388328b5ef33396eee6a5520a2616e"
+    }, {
+      "name" : "17548-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "548330b7ef311cf3",
+        "parentUid" : "540944756ce15eb5c36eb68449f8206e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933954301,
+          "stop" : 1647933954301,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case2",
+        "uid" : "f4c1b42f30169ec7",
+        "parentUid" : "540944756ce15eb5c36eb68449f8206e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933954295,
+          "stop" : 1647933954295,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case3",
+        "uid" : "24fbbd1b7889d405",
+        "parentUid" : "540944756ce15eb5c36eb68449f8206e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933954290,
+          "stop" : 1647933954290,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "540944756ce15eb5c36eb68449f8206e"
+    }, {
+      "name" : "24388-MainThread",
+      "children" : [ {
+        "name" : "test_create_vpc_vpc[create_vpc1]",
+        "uid" : "eabfa9e7a58d538a",
+        "parentUid" : "ed4269a9f29e260eedab8421e34ce089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935060578,
+          "stop" : 1647935062235,
+          "duration" : 1657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中vpc名称重复', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'The router name has exist'}}]}" ]
+      }, {
+        "name" : "test_delete_vpc_vpc[delete_vpc0]",
+        "uid" : "87d87ff670449873",
+        "parentUid" : "ed4269a9f29e260eedab8421e34ce089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935063478,
+          "stop" : 1647935065830,
+          "duration" : 2352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "cdae20a446903634",
+        "parentUid" : "ed4269a9f29e260eedab8421e34ce089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935056195,
+          "stop" : 1647935056195,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "fad70adc2b8973e",
+        "parentUid" : "ed4269a9f29e260eedab8421e34ce089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935056188,
+          "stop" : 1647935056188,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "1d774a41c01c5748",
+        "parentUid" : "ed4269a9f29e260eedab8421e34ce089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935056172,
+          "stop" : 1647935056172,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc0]",
+        "uid" : "81df54a9690f1899",
+        "parentUid" : "ed4269a9f29e260eedab8421e34ce089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935058319,
+          "stop" : 1647935060570,
+          "duration" : 2251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '正常输入接口参数', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc33', 'description': 'test11', 'cidr': '192.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 200, 'message': 'vpc33'}}]}" ]
+      }, {
+        "name" : "test_create_vpc_vpc[create_vpc2]",
+        "uid" : "a556eb0a3f34f89e",
+        "parentUid" : "ed4269a9f29e260eedab8421e34ce089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647935062243,
+          "stop" : 1647935063470,
+          "duration" : 1227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+      } ],
+      "uid" : "ed4269a9f29e260eedab8421e34ce089"
+    }, {
+      "name" : "16128-MainThread",
+      "children" : [ {
+        "name" : "test_case3",
+        "uid" : "6de4636abd3d2830",
+        "parentUid" : "feb3babbd41fca94829401d22da9ed03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647934068542,
+          "stop" : 1647934068542,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case2",
+        "uid" : "936f735ed0d96d9a",
+        "parentUid" : "feb3babbd41fca94829401d22da9ed03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647934068547,
+          "stop" : 1647934068547,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "c550f986e80898dd",
+        "parentUid" : "feb3babbd41fca94829401d22da9ed03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647934068552,
+          "stop" : 1647934068552,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "feb3babbd41fca94829401d22da9ed03"
+    }, {
+      "name" : "8532-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "f781ae5eb404c2e",
+        "parentUid" : "4c772004e3ba55d57001b8190d17da3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647934244226,
+          "stop" : 1647934244226,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "61cfcc76fa8f9dc",
+        "parentUid" : "4c772004e3ba55d57001b8190d17da3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647934244215,
+          "stop" : 1647934244215,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "3ca70567bfa70747",
+        "parentUid" : "4c772004e3ba55d57001b8190d17da3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647934244221,
+          "stop" : 1647934244221,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c772004e3ba55d57001b8190d17da3d"
+    }, {
+      "name" : "8004-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "57b22e186cb41845",
+        "parentUid" : "d00db0055994c857fafd908f377ce9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999961534,
+          "stop" : 1647999961534,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "8e47db7b3ec5894d",
+        "parentUid" : "d00db0055994c857fafd908f377ce9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999961479,
+          "stop" : 1647999961479,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "cea19b961061afe",
+        "parentUid" : "d00db0055994c857fafd908f377ce9ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647999961487,
+          "stop" : 1647999961487,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d00db0055994c857fafd908f377ce9ab"
+    }, {
+      "name" : "1636-MainThread",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "77ad55e301695e2f",
+        "parentUid" : "92e9f8fd6579c684f0d19d7d285395ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999651220,
+          "stop" : 1647999651220,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "e7604abd463f489f",
+        "parentUid" : "92e9f8fd6579c684f0d19d7d285395ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647999651181,
+          "stop" : 1647999651181,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase2",
+        "uid" : "cc56d2786d3a2fa2",
+        "parentUid" : "92e9f8fd6579c684f0d19d7d285395ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647999651186,
+          "stop" : 1647999651186,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92e9f8fd6579c684f0d19d7d285395ff"
+    }, {
+      "name" : "20632-MainThread",
+      "children" : [ {
+        "name" : "test_case2",
+        "uid" : "ac331a35c1188af6",
+        "parentUid" : "10fb0f9f13f3ca129ecccc116cf82041",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647931809017,
+          "stop" : 1647931809017,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case3",
+        "uid" : "ea9cdb45db924dc9",
+        "parentUid" : "10fb0f9f13f3ca129ecccc116cf82041",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647931809009,
+          "stop" : 1647931809009,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "bcb7039f30374c87",
+        "parentUid" : "10fb0f9f13f3ca129ecccc116cf82041",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647931809017,
+          "stop" : 1647931809017,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10fb0f9f13f3ca129ecccc116cf82041"
+    }, {
+      "name" : "19064-MainThread",
+      "children" : [ {
+        "name" : "test_case2",
+        "uid" : "baf4a5477473fa63",
+        "parentUid" : "5986922dec9c37a774bd264c27c6e6bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933924408,
+          "stop" : 1647933924409,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case3",
+        "uid" : "be3bd4af255cc1ec",
+        "parentUid" : "5986922dec9c37a774bd264c27c6e6bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933924403,
+          "stop" : 1647933924403,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "c9d6c9d904b3dfb8",
+        "parentUid" : "5986922dec9c37a774bd264c27c6e6bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647933924414,
+          "stop" : 1647933924415,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5986922dec9c37a774bd264c27c6e6bf"
+    }, {
+      "name" : "19332-MainThread",
+      "children" : [ {
+        "name" : "test_case2",
+        "uid" : "603411de8714645f",
+        "parentUid" : "9ccdbbd40b21f596fdcc0a280e1049cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647932387454,
+          "stop" : 1647932387455,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "306d6a57ca1d4298",
+        "parentUid" : "9ccdbbd40b21f596fdcc0a280e1049cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647932387460,
+          "stop" : 1647932387460,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case3",
+        "uid" : "1a7222dcda001ffa",
+        "parentUid" : "9ccdbbd40b21f596fdcc0a280e1049cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647932387449,
+          "stop" : 1647932387449,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ccdbbd40b21f596fdcc0a280e1049cd"
+    }, {
+      "name" : "14820-MainThread",
+      "children" : [ {
+        "name" : "testcase2",
+        "uid" : "d9916ee121ef3df",
+        "parentUid" : "f4dfbe316ec512dd537e9674fb2968ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648000790902,
+          "stop" : 1648000790902,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase3",
+        "uid" : "5b7c6162f54d19fa",
+        "parentUid" : "f4dfbe316ec512dd537e9674fb2968ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648000790894,
+          "stop" : 1648000790894,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testcase1",
+        "uid" : "5f57929b17e655f8",
+        "parentUid" : "f4dfbe316ec512dd537e9674fb2968ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648000790941,
+          "stop" : 1648000790941,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4dfbe316ec512dd537e9674fb2968ea"
+    } ],
+    "uid" : "ab12d0939dc240ef2055c49603744bd6"
+  } ]
+}

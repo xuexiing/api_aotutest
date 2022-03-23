@@ -1,0 +1,210 @@
+{
+  "uid" : "d760dfbdee060174",
+  "name" : "test_delete_vpc_vpc[delete_vpc0]",
+  "fullName" : "pytest_case.vpc.test_vpc_api_vpc.TestVpcApi#test_delete_vpc_vpc",
+  "historyId" : "16d0c78aab4e83ea8ddda681f9085f2e",
+  "time" : {
+    "start" : 1647999581881,
+    "stop" : 1647999584670,
+    "duration" : 2789
+  },
+  "description" : "\n        :param getProjectId:\n        :param getToken:\n        :param delete_vpc:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :param getProjectId:\n    :param getToken:\n    :param delete_vpc:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_project_id",
+    "time" : {
+      "start" : 1647999574727,
+      "stop" : 1647999574727,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1647999574727,
+      "stop" : 1647999576545,
+      "duration" : 1818
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setconf",
+    "time" : {
+      "start" : 1647999576545,
+      "stop" : 1647999576545,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        :param getProjectId:\n        :param getToken:\n        :param delete_vpc:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a2b12ed7b9df083",
+      "name" : "log",
+      "source" : "8a2b12ed7b9df083.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "133aaf011b911546",
+      "name" : "stdout",
+      "source" : "133aaf011b911546.txt",
+      "type" : "text/plain",
+      "size" : 21
+    }, {
+      "uid" : "d699324a1a6f81ef",
+      "name" : "stderr",
+      "source" : "d699324a1a6f81ef.txt",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "setconf::0",
+    "time" : {
+      "start" : 1647999584670,
+      "stop" : 1647999584670,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_case.vpc"
+  }, {
+    "name" : "suite",
+    "value" : "test_vpc_api_vpc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVpcApi"
+  }, {
+    "name" : "host",
+    "value" : "no-delecs-g42-test-wx405299"
+  }, {
+    "name" : "thread",
+    "value" : "26572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.vpc.test_vpc_api_vpc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "delete_vpc",
+    "value" : "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "440ba7ef68dee9b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647999473081,
+        "stop" : 1647999475451,
+        "duration" : 2370
+      }
+    }, {
+      "uid" : "8b702ac7ac51096b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647999393896,
+        "stop" : 1647999396492,
+        "duration" : 2596
+      }
+    }, {
+      "uid" : "3acf3f271bf8fb55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647998734954,
+        "stop" : 1647998737335,
+        "duration" : 2381
+      }
+    }, {
+      "uid" : "e865e9503d7921f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647998630482,
+        "stop" : 1647998632839,
+        "duration" : 2357
+      }
+    }, {
+      "uid" : "c13bb20b81cc7065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647935637550,
+        "stop" : 1647935641534,
+        "duration" : 3984
+      }
+    }, {
+      "uid" : "a90a623c533c37f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647935480148,
+        "stop" : 1647935482597,
+        "duration" : 2449
+      }
+    }, {
+      "uid" : "87d87ff670449873",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647935063478,
+        "stop" : 1647935065830,
+        "duration" : 2352
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d760dfbdee060174.json",
+  "parameterValues" : [ "{'name': '删除vpc接口', 'request': {'url': '/v1/%s/vpcs/%s', 'method': 'delete'}, 'validate': [{'eq': {'status_code': 204}}]}" ]
+}

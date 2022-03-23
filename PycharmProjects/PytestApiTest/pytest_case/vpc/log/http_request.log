@@ -1,0 +1,42 @@
+2022-02-10 15:57:22,527 INFO token 获取成功
+2022-02-10 15:57:25,043 INFO create vpc succuss
+2022-02-10 15:57:26,691 INFO create vpc failtrue
+2022-02-10 15:57:28,239 INFO create vpc failtrue
+2022-02-10 16:00:09,112 INFO token 获取成功
+2022-02-10 16:00:09,113 INFO 4
+2022-02-10 16:00:10,558 INFO 4
+2022-02-10 16:00:12,215 INFO create vpc failtrue
+2022-02-10 16:00:12,218 INFO 4
+2022-02-10 16:00:13,742 INFO create vpc failtrue
+2022-02-10 16:09:15,860 INFO token 获取成功
+2022-02-10 16:09:15,862 INFO 4
+2022-02-10 16:09:18,606 INFO 4
+2022-02-10 16:09:20,356 INFO create vpc failtrue
+2022-02-10 16:09:20,360 INFO 4
+2022-02-10 16:09:21,858 INFO create vpc failtrue
+2022-02-10 16:09:24,280 INFO vpc deleted successfull
+2022-02-10 16:10:49,911 INFO token 获取成功
+2022-02-10 16:10:49,913 INFO 4
+2022-02-10 16:10:52,170 INFO create vpc succuss
+2022-02-10 16:10:52,172 INFO 4
+2022-02-10 16:10:53,745 INFO create vpc failtrue
+2022-02-10 16:10:53,747 INFO 4
+2022-02-10 16:10:55,221 INFO create vpc failtrue
+2022-02-10 16:10:57,550 INFO vpc deleted successfull
+2022-02-10 16:12:55,801 INFO token 获取成功
+2022-02-10 16:12:55,803 INFO 4
+2022-02-10 16:12:58,418 INFO create vpc succuss
+2022-02-10 16:12:58,421 INFO 4
+2022-02-10 16:13:00,185 INFO The router name has exist
+2022-02-10 16:13:00,187 INFO 4
+2022-02-10 16:13:01,435 INFO Create router error cidr is invalid
+2022-02-10 16:13:03,716 INFO vpc deleted successfull
+2022-03-22 09:04:11,663 INFO token 获取成功
+2022-03-22 09:04:55,150 INFO token 获取成功
+2022-03-22 09:04:55,150 INFO 4
+2022-03-22 09:04:57,357 INFO create vpc succuss
+2022-03-22 09:04:57,357 INFO 4
+2022-03-22 09:04:59,074 INFO The router name has exist
+2022-03-22 09:04:59,074 INFO 4
+2022-03-22 09:05:00,282 INFO Create router error cidr is invalid
+2022-03-22 09:05:02,770 INFO vpc deleted successfull

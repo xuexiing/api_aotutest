@@ -1,0 +1,72 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "story_3",
+    "children" : [ {
+      "name" : "testcase3",
+      "uid" : "e3e716e87fd0098b",
+      "parentUid" : "4b3057e5f20a66c35b2381fa78ae6e83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648017024110,
+        "stop" : 1648017024110,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4b3057e5f20a66c35b2381fa78ae6e83"
+  }, {
+    "name" : "story_2",
+    "children" : [ {
+      "name" : "testcase2",
+      "uid" : "88cf4d81ae283067",
+      "parentUid" : "6a9ccce4b70bf8cb3fe1d22166f165fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648017024113,
+        "stop" : 1648017024114,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6a9ccce4b70bf8cb3fe1d22166f165fa"
+  }, {
+    "name" : "I am feature",
+    "children" : [ {
+      "name" : "story_1",
+      "children" : [ {
+        "name" : "testcase1",
+        "uid" : "e345c622c8b733cf",
+        "parentUid" : "46ada5801e948981b4b4a37f94b95693",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648017024119,
+          "stop" : 1648017024119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46ada5801e948981b4b4a37f94b95693"
+    } ],
+    "uid" : "e45fc621f9bc57a00d58335f48fc135d"
+  } ]
+}

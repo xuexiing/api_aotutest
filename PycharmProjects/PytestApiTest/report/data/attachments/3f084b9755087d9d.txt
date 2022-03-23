@@ -1,0 +1,6 @@
+setup module=============
+setup function===========
+setup====================
+I am case3
+teardown=================
+teardown function========

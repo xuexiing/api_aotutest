@@ -1,0 +1,3 @@
+INFO     root:ApiautoLogging.py:91 4
+ERROR    root:ApiautoLogging.py:99 unknow error
+INFO     root:ApiautoLogging.py:91 The router name has exist

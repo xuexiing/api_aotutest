@@ -1,0 +1,90 @@
+{
+  "c2587292494ec27982b03b54b5718784" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1cb4b4f07088ec49",
+      "reportUrl" : "http://127.0.0.1:8080/job/allure/8/allure/#testresult/1cb4b4f07088ec49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648016816538,
+        "stop" : 1648016816538,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3f7aad127287a44d",
+      "reportUrl" : "http://127.0.0.1:8080/job/allure/7/allure/#testresult/3f7aad127287a44d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648007638663,
+        "stop" : 1648007638663,
+        "duration" : 0
+      }
+    } ]
+  },
+  "92f9d3b642298a60c88279ecf235fa2d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a4d57dc435dd524a",
+      "reportUrl" : "http://127.0.0.1:8080/job/allure/8/allure/#testresult/a4d57dc435dd524a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648016816533,
+        "stop" : 1648016816533,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "350eb6254d2c905",
+      "reportUrl" : "http://127.0.0.1:8080/job/allure/7/allure/#testresult/350eb6254d2c905",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+      "time" : {
+        "start" : 1648007638630,
+        "stop" : 1648007638630,
+        "duration" : 0
+      }
+    } ]
+  },
+  "342aef546a572145e3bd9e647e283804" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f61b7b577bdb9e4a",
+      "reportUrl" : "http://127.0.0.1:8080/job/allure/8/allure/#testresult/f61b7b577bdb9e4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648016816528,
+        "stop" : 1648016816528,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "760190c7d719c12a",
+      "reportUrl" : "http://127.0.0.1:8080/job/allure/7/allure/#testresult/760190c7d719c12a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648007638613,
+        "stop" : 1648007638613,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,2 @@
+INFO     root:ApiautoLogging.py:91 4
+INFO     root:ApiautoLogging.py:91 The router name has exist

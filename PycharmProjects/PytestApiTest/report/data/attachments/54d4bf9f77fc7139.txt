@@ -1,0 +1,2 @@
+2022-03-23 09:25:37,334 INFO vpc deleted successfull
+2022-03-23 09:25:37,334 INFO vpc deleted successfull

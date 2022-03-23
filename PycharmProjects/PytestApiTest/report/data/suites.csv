@@ -1,0 +1,31 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 23 09:59:50 CST 2022","Wed Mar 23 09:59:50 CST 2022","0","pytest_case","test_fixtures1","","","","testcase3","I am first test_case3"
+"failed","Wed Mar 23 09:59:50 CST 2022","Wed Mar 23 09:59:50 CST 2022","0","pytest_case","test_fixtures1","","","","testcase2","I am first test_case2"
+"passed","Wed Mar 23 09:39:38 CST 2022","Wed Mar 23 09:39:40 CST 2022","1626","pytest_case.vpc","test_vpc_api_vpc","TestVpcApi","","","test_create_vpc_vpc[create_vpc1]","
+        :desc 框架读取yaml测试用例自动分组读取多测试用例数据，已相应值对于，只需对response，及预期结果进行数据出来即可
+        :param getProjectId:
+        :param getToken:
+        :param create_vpc:
+        :return:
+        "
+"passed","Wed Mar 23 09:39:36 CST 2022","Wed Mar 23 09:39:38 CST 2022","2254","pytest_case.vpc","test_vpc_api_vpc","TestVpcApi","","","test_create_vpc_vpc[create_vpc0]","
+        :desc 框架读取yaml测试用例自动分组读取多测试用例数据，已相应值对于，只需对response，及预期结果进行数据出来即可
+        :param getProjectId:
+        :param getToken:
+        :param create_vpc:
+        :return:
+        "
+"passed","Wed Mar 23 09:39:40 CST 2022","Wed Mar 23 09:39:41 CST 2022","1450","pytest_case.vpc","test_vpc_api_vpc","TestVpcApi","","","test_create_vpc_vpc[create_vpc2]","
+        :desc 框架读取yaml测试用例自动分组读取多测试用例数据，已相应值对于，只需对response，及预期结果进行数据出来即可
+        :param getProjectId:
+        :param getToken:
+        :param create_vpc:
+        :return:
+        "
+"passed","Wed Mar 23 09:39:41 CST 2022","Wed Mar 23 09:39:44 CST 2022","2789","pytest_case.vpc","test_vpc_api_vpc","TestVpcApi","","","test_delete_vpc_vpc[delete_vpc0]","
+        :param getProjectId:
+        :param getToken:
+        :param delete_vpc:
+        :return:
+        "
+"passed","Wed Mar 23 09:59:50 CST 2022","Wed Mar 23 09:59:50 CST 2022","0","pytest_case","test_fixtures1","","","","testcase1","I am first test_case1"

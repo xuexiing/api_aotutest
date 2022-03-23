@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a6913cccbd91c4d1",
+  "name" : "test_delete_vpc",
+  "time" : {
+    "start" : 1627377362208,
+    "stop" : 1627377364770,
+    "duration" : 2562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b269b310f8c17d70",
+  "name" : "test_create_vpc",
+  "time" : {
+    "start" : 1627377359957,
+    "stop" : 1627377362208,
+    "duration" : 2251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,1 @@
+INFO     root:ApiautoLogging.py:91 I AM CASE1

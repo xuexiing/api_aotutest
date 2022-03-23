@@ -1,0 +1,140 @@
+笔记一：
+
+一、单元测试框架和自动化框架的关系？
+1、什么是自动化测试框架
+2、作用：
+   a、提高测试效率，减小维护成本
+   b、减少人为干预，提高测试的准确性，增加代码的重用性
+   c、核心思想是让不懂代码的人也可以通过框架进行自动化
+3、pytest单元测试框架和自动化测试框架的关系
+   a、单元测试框架只是自动化测试框架的组成之一 
+   b、pom设计模式
+   c、数据驱动
+   d、关键字驱动
+   e、全局配置文件封装
+   f、日志监控
+   g、selenium，request二次封装
+   h、断言
+   i、报告，邮件
+   更多...
+
+二、pytest简介
+1、pytest是一款成熟的python自动化测试框架，比unittest灵活，更容易上手
+2、pytest和selenium，requests，appnium结合实现web自动化，接口自动化，及app自动化
+3、pytest可以实现测试用例跳过及rerun进行失败重试
+4、pytest可以和allure生成美观的测试报告
+5、pytest和jenkins持续集成
+6、pytest有很多非常强大的插件，这些插件能实现能多实用的操作
+   pytest 
+   pytest-xdict
+   pytest-ordering
+   pytest-rerunfailtures
+   pytest-html
+   allure-pytest
+放在requirenents.txt文件，执行pip install -r requirenents.txt
+
+
+三、使用pytest，默认的测试用例的规则及基础应用
+1、模块名必须以test_开头或者_test结尾
+2、测试类必须以Test_开头
+3、方法必须以test开头
+
+四、pytest测试用例的运行方式
+1、主函数模式
+   a、运行所有：pytest.main（）
+   b、指定模块：pytest.main（['-vs','case.py']）
+   c、指定目录：pytest.main（['-vs','./test_case']）
+   d、通过nodeid制定用例运行：pytest.main（['-vs','./test_case/case.py::Class_name::function_name']）
+   
+
+2、终端运行
+   a、pytest
+   b、pytest -vs
+   c、pytest -vs ./test_case/case.py::Class_name::function_name
+
+-v 输出调试信息，打印print
+-s 显示相信信息
+-vs
+-n 支持多线程，分布式用例执行
+--rerun 失败重跑
+-x 有一个用例失败，测试停止
+--maxfail 指定失败的用例次数，测试停止
+-k  根据用例的部分字符串指定用例如:pytest -vs ./testcase -k 'ao'
+--html ./report/report.html 生成报告
+
+
+
+3、pytest.ini pytest内置的配置文件
+   a、一般放在根目录
+   b、必须是ANSI，使用nodepad++
+   c、修改pytest行为
+   d、无论怎么执行，系统会自动读取该文件
+[pytest]
+   
+addopts = -vs -n=2 --rerun=2 --maxfailtures=2 -x --maxfail=2 -k='ao' --html=./report/report.html
+testpaths = ./pytest_case
+python_files = test_*
+python_classes = Test*
+python_functions = test
+markers =
+	smoke
+
+五、pytest测试用例执行顺序
+1、unittest安装ascll大小来决定执行
+2、pytest由上到下
+3、改变执行顺序，使用mark
+@pytest.mark.run(order=1)
+
+六、分组执行
+smoke：冒烟用例分布在各个模块
+pytest -m "smoke"
+pytest -m "smoke or other"
+
+七，pytest跳过测试用例
+1、无条件跳过：@pytest.mark.skip(reason="跳过的原因")
+2、有条件跳过：@pytest.mark.skipif(i>18,reason="跳过原因")
+
+八，pytest配置文件conftest.py使用
+1、conftest.py文件可以起到setup teardown的作用，且使用更灵活
+2、pytest.mark.fixtrue(scope="session" ,autouse=Ture)配合conftest.py配置文件使用
+
+	
+笔记二：
+Yaml使用
+1、用于全局标量文件ini/yaml
+2、用于编写测试用例
+
+yaml简介
+yaml是一种数据格式，支持注释，换行，多行字符串，裸字符串（整形，字符串）
+
+语法规则：
+1、区分大小写
+2、使用缩进表示层级，不能使用tab进行缩进
+3、缩进没有数量（空格）
+4、注释是#
+数据：
+1、Map对象，键值对
+2、数组（list）
+
+
+生成allure报告：
+1、下载allure，配置环境变量
+2、pytest.ini中添加
+    addopts = -vs --alluredir  ./temp
+3、main函数中：os.system('allure generate ./temp/ -o ./report --clean')
+
+Yaml接口自动化实战
+
+1、断言的封装
+使用ymal读取全量测试用例，框架自动分组读取每组数据
+
+提取测试用例中预期结果与response中的状态吗响应及业务相应内容
+2、allure定制
+3、用例关联
+增加extern.yaml实现用例关联
+3、关键字驱动和数据驱动结合使用实现自动化
+4、python的反射
+	正常：先初始化对象。再调方法
+ 	反射：通过对象得到类对象，通过类对象调用方法
+5、jenkins的持续集成和allure报告持续集成，并且根自动化测试报告发送邮件
+

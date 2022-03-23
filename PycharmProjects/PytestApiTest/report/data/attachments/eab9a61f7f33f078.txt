@@ -1,0 +1,3 @@
+INFO     root:ApiautoLogging.py:91 token 获取成功
+INFO     root:ApiautoLogging.py:91 4
+INFO     root:ApiautoLogging.py:91 create vpc succuss

@@ -1,0 +1,46 @@
+-
+  name: 创建vpc接口
+  description: 正常输入接口参数
+  request:
+    url: /v1/%s/vpcs
+    method: post
+    data:
+      vpc:
+        name: vpc33
+        description: test11
+        cidr: 192.168.0.0/16
+  validate:
+    - eq:
+       status_code: 200
+       message: vpc33
+-
+  name: 创建vpc接口
+  description: 输入参数中vpc名称重复
+  request:
+    url: /v1/%s/vpcs
+    method: post
+    data:
+      vpc:
+        name: vpc33
+        description: test11
+        cidr: 192.168.0.0/16
+  validate:
+    - eq:
+       status_code: 400
+       message: The router name has exist
+
+-
+  name: 创建vpc接口
+  description: 输入参数中cidr不符合要求
+  request:
+    url: /v1/%s/vpcs
+    method: post
+    data:
+      vpc:
+        name: vpc-test
+        description: test11
+        cidr: 11.168.0.0/16
+  validate:
+    - eq:
+       status_code: 400
+       message: Create router error cidr is invalid

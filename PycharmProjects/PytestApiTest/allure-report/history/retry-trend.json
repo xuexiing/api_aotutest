@@ -1,0 +1,25 @@
+[ {
+  "buildOrder" : 9,
+  "reportUrl" : "http://127.0.0.1:8080/job/allure/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 9
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://127.0.0.1:8080/job/allure/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 6
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://127.0.0.1:8080/job/allure/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 3
+  }
+} ]

@@ -1,0 +1,71 @@
+[ {
+  "uid" : "5b7c6162f54d19fa",
+  "name" : "testcase3",
+  "time" : {
+    "start" : 1648000790894,
+    "stop" : 1648000790894,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9916ee121ef3df",
+  "name" : "testcase2",
+  "time" : {
+    "start" : 1648000790902,
+    "stop" : 1648000790902,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a2557b60f7315976",
+  "name" : "test_create_vpc_vpc[create_vpc1]",
+  "time" : {
+    "start" : 1647999578799,
+    "stop" : 1647999580425,
+    "duration" : 1626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c8f76f98b7244bc",
+  "name" : "test_create_vpc_vpc[create_vpc0]",
+  "time" : {
+    "start" : 1647999576545,
+    "stop" : 1647999578799,
+    "duration" : 2254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59f84bac43a72923",
+  "name" : "test_create_vpc_vpc[create_vpc2]",
+  "time" : {
+    "start" : 1647999580425,
+    "stop" : 1647999581875,
+    "duration" : 1450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d760dfbdee060174",
+  "name" : "test_delete_vpc_vpc[delete_vpc0]",
+  "time" : {
+    "start" : 1647999581881,
+    "stop" : 1647999584670,
+    "duration" : 2789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f57929b17e655f8",
+  "name" : "testcase1",
+  "time" : {
+    "start" : 1648000790941,
+    "stop" : 1648000790941,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

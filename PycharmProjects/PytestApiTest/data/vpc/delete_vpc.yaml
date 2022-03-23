@@ -1,0 +1,8 @@
+-
+  name: 删除vpc接口
+  request:
+    url: /v1/%s/vpcs/%s
+    method: delete
+  validate:
+    - eq:
+       status_code: 204

@@ -1,0 +1,201 @@
+{
+  "uid" : "88cf4d81ae283067",
+  "name" : "testcase2",
+  "fullName" : "pytest_case.test_fixtures1#test_case2",
+  "historyId" : "92f9d3b642298a60c88279ecf235fa2d",
+  "time" : {
+    "start" : 1648017024113,
+    "stop" : 1648017024114,
+    "duration" : 1
+  },
+  "description" : "I am first test_case2",
+  "descriptionHtml" : "<p>I am first test_case2</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_module_fixture_pytest_case.test_fixtures1",
+    "time" : {
+      "start" : 1648017024097,
+      "stop" : 1648017024108,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_function_fixture_pytest_case.test_fixtures1",
+    "time" : {
+      "start" : 1648017024113,
+      "stop" : 1648017024113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "I am first test_case2",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "21e8c759b68626de",
+      "name" : "log",
+      "source" : "21e8c759b68626de.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_function_fixture_pytest_case.test_fixtures1::0",
+    "time" : {
+      "start" : 1648017024114,
+      "stop" : 1648017024114,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_module_fixture_pytest_case.test_fixtures1::0",
+    "time" : {
+      "start" : 1648017024120,
+      "stop" : 1648017024120,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "story_2"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_fixtures1"
+  }, {
+    "name" : "host",
+    "value" : "no-delecs-g42-test-wx405299"
+  }, {
+    "name" : "thread",
+    "value" : "18468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_fixtures1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "780d063db4120b62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648016816533,
+        "stop" : 1648016816533,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "596429bc3d4b8031",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+      "time" : {
+        "start" : 1648007638630,
+        "stop" : 1648007638630,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "37afb498a2b3fe17",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+      "time" : {
+        "start" : 1648007253050,
+        "stop" : 1648007253051,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a4d57dc435dd524a",
+        "reportUrl" : "http://127.0.0.1:8080/job/allure/8/allure/#testresult/a4d57dc435dd524a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648016816533,
+          "stop" : 1648016816533,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "350eb6254d2c905",
+        "reportUrl" : "http://127.0.0.1:8080/job/allure/7/allure/#testresult/350eb6254d2c905",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 3\n  +2\n  -3",
+        "time" : {
+          "start" : 1648007638630,
+          "stop" : 1648007638630,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "88cf4d81ae283067.json",
+  "parameterValues" : [ ]
+}

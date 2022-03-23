@@ -1,0 +1,37 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "6a9ccce4b70bf8cb3fe1d22166f165fa",
+    "name" : "story_2",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "4b3057e5f20a66c35b2381fa78ae6e83",
+    "name" : "story_3",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e45fc621f9bc57a00d58335f48fc135d",
+    "name" : "I am feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

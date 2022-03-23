@@ -1,0 +1,146 @@
+{
+  "uid" : "a556eb0a3f34f89e",
+  "name" : "test_create_vpc_vpc[create_vpc2]",
+  "fullName" : "pytest_case.vpc.test_vpc_api_vpc.TestVpcApi#test_create_vpc_vpc",
+  "historyId" : "55364b2b6a5dcc8c889f7fea1ca5a20d",
+  "time" : {
+    "start" : 1647935062243,
+    "stop" : 1647935063470,
+    "duration" : 1227
+  },
+  "description" : "\n        :desc 框架读取yaml测试用例自动分组读取多测试用例数据，已相应值对于，只需对response，及预期结果进行数据出来即可\n        :param getProjectId:\n        :param getToken:\n        :param create_vpc:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :desc 框架读取yaml测试用例自动分组读取多测试用例数据，已相应值对于，只需对response，及预期结果进行数据出来即可\n    :param getProjectId:\n    :param getToken:\n    :param create_vpc:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "getProjectId",
+    "time" : {
+      "start" : 1647935056195,
+      "stop" : 1647935056195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "getToken",
+    "time" : {
+      "start" : 1647935056195,
+      "stop" : 1647935058312,
+      "duration" : 2117
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setconf",
+    "time" : {
+      "start" : 1647935058312,
+      "stop" : 1647935058312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        :desc 框架读取yaml测试用例自动分组读取多测试用例数据，已相应值对于，只需对response，及预期结果进行数据出来即可\n        :param getProjectId:\n        :param getToken:\n        :param create_vpc:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf240c4b63320f8d",
+      "name" : "log",
+      "source" : "cf240c4b63320f8d.txt",
+      "type" : "text/plain",
+      "size" : 107
+    }, {
+      "uid" : "9253f3aa3d1162e5",
+      "name" : "stderr",
+      "source" : "9253f3aa3d1162e5.txt",
+      "type" : "text/plain",
+      "size" : 192
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "setconf::0",
+    "time" : {
+      "start" : 1647935065830,
+      "stop" : 1647935065830,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_case.vpc"
+  }, {
+    "name" : "suite",
+    "value" : "test_vpc_api_vpc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVpcApi"
+  }, {
+    "name" : "host",
+    "value" : "no-delecs-g42-test-wx405299"
+  }, {
+    "name" : "thread",
+    "value" : "24388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.vpc.test_vpc_api_vpc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "create_vpc",
+    "value" : "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a556eb0a3f34f89e.json",
+  "parameterValues" : [ "{'name': '创建vpc接口', 'description': '输入参数中cidr不符合要求', 'request': {'url': '/v1/%s/vpcs', 'method': 'post', 'data': {'vpc': {'name': 'vpc-test', 'description': 'test11', 'cidr': '11.168.0.0/16'}}}, 'validate': [{'eq': {'status_code': 400, 'message': 'Create router error cidr is invalid'}}]}" ]
+}
