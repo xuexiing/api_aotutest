@@ -10,7 +10,7 @@ import pytest
 import os
 
 if __name__ == '__main__':
-    pytest.main(['-vs', "--alluredir", "./temp", "--capture=sys"])
-    os.system('allure generate ./temp -o ./report --clean')
-    time.sleep(2)
-    os.system("allure open -h 127.0.0.1 -p 8083 ./report")
+    pytest.main(['-vs', "--alluredir", "./allure-result", "--capture=sys"])
+    #os.system('allure generate ./allure-result -o ./report --clean')
+    #time.sleep(2)
+    #os.system("allure open -h 127.0.0.1 -p 8083 ./report")
